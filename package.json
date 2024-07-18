@@ -4,11 +4,15 @@
   "description": "Tests automation in shop online Movistar",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run"
   },
   "author": "Anton",
   "license": "ISC",
   "dependencies": {
     "cypress": "^13.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonnahuel/TestMovistarOnline.git"
   }
 }
