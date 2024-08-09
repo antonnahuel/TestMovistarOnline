@@ -13,7 +13,6 @@ class homePage {
 
         this.miMovistarButton = '.my-movistar-button';
 
-        this.mobileProduct = '';
     }
 
     search = (element) => {

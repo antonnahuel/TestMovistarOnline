@@ -20,6 +20,7 @@ describe('Test 1', () => {
         busque en internet y esta fue una de las soluciones:
         https://stackoverflow.com/questions/74636602/uncaught-exceptionreferenceerror-gtag-is-not-defined-in-cypress
         */
+       
         cy.on('uncaught:exception', (err, runnable) => {
             return false;
         })        
